@@ -1,0 +1,2 @@
+# WidgetBrowser
+Qt Widget Browser
