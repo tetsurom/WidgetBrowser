@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "../src/wb/dialog.h"
+#include "wb/dialog.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),

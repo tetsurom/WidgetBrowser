@@ -13,4 +13,9 @@ HEADERS += mainwindow.h
 
 FORMS   += mainwindow.ui
 
-INCLUDEPATH  += ../src/wb
+INCLUDEPATH  += ../src
+debug {
+    LIBS += -L../src/debug -lWidgetBrowser
+} else {
+    LIBS += -L../src/release -lWidgetBrowser
+}
