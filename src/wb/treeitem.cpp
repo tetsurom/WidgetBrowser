@@ -1,5 +1,5 @@
 #include <QWidget>
-#include "treeItem.h"
+#include "treeitem.h"
 
 using namespace wb;
 
